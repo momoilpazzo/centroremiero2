@@ -1,0 +1,154 @@
+/* stylesheet.css */
+
+/* Reset dei margini e dei padding */
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Stile per l'intestazione */
+  header {
+    
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  /* Stile per la barra di navigazione */
+  nav {
+    background-color: #336699;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    
+  }
+  
+  /* Stile per il contenuto principale */
+  main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  section p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  section ul {
+    margin-bottom: 10px;
+  }
+  
+  section ul li {
+    margin-bottom: 5px;
+  }
+  
+  /* Stile per il modulo di registrazione */
+  form {
+    margin-top: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Stile per il piè di pagina */
+  footer {
+    
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+  }
+  /* stylesheet.css */
+
+body {
+  background-image: url("Foto/foto1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+  
+  footer p {
+    margin-bottom: 5px;
+  }
+  /* stylesheet.css */
+
+/* stylesheet.css */
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+  
+  .button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #336699;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #003366;}
+    /* stylesheet.css */
+}
